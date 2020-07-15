@@ -34,3 +34,14 @@ int main()
         printf("rainbow - blue : %d\n", rb_blue);
         printf("rainbow2 - purple2 : %d\n", rb2_purple2);
 }
+
+/*
+*       [ 출력 ]
+*       rainbow : red	orange	yellow	green	blue	indigo	purple
+*       	0	1	2	3	4	5	6	
+*       rainbow2: red2	orange2	yellow2	green2	blue2	indigo2	purple2
+*       	5	6	7	8	3	4	5	
+*
+*       rainbow - blue : 4
+*       rainbow2 - purple2 : 5
+*/
