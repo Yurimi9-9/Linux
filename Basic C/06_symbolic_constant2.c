@@ -6,15 +6,15 @@
 int main()
 {
         int radius = 5;
-        int area = radius*radius*PI;
+        float area = radius*radius*PI;
         printf("---- 원 넓이 출력 ----\n");
         printf("r :\t%d\n", radius);
-        printf("area :\t%d\n", area);
+        printf("area :\t%f\n", area);
 }
 
 /* 
 *   [ 출력 ]
 *   ---- 원 넓이 출력 ----
 *   r :     5
-*   area :  78
+*   area :  78.539818
 */
