@@ -1,0 +1,22 @@
+/* String Type Variable */
+#include <stdio.h>
+
+int main()
+{
+        /* ['hello'를 저장하는 변수 선언]
+            배열의 마지막 원소에는 NULL('\0') 문자가 들어가야하므로 크기가 6인 배열 생성 */
+        char str1[6];
+        char str2[6] = "hello";
+
+        str1[0] = 'h';  str1[1] = 'e';  str1[2] = 'l';
+        str1[3] = 'l';  str1[4] = 'o';  str1[5] = '\0';
+
+        printf("%s\n", str1);
+        printf("%s\n", str2);
+}
+
+/*
+*   [ 출력 ]
+*   hello
+*   hello
+*/
